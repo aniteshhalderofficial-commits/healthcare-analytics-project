@@ -1,0 +1,11 @@
+# Ignore SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore Mac system files (just in case)
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
