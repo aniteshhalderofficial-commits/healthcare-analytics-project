@@ -1,11 +1,20 @@
-# Ignore SQLite database files
-*.db
-*.sqlite
-*.sqlite3
-
-# Ignore Mac system files (just in case)
-.DS_Store
-
-# Ignore Python cache
+# Python cache & virtual environments
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Database locks / temp files
+*.db-journal
+*.sqlite-journal
